@@ -36,3 +36,6 @@
 | `/api/standings/drivers/raceId`                       | Returns the current season driver standings table for the specified race        |
 | `/api/standings/constructors/raceId`            | Returns the current season constructors standings table for the specified race        |
 
+## Test Links
+
+- [/api/circuits](https://comp4513-asg1-s2mk.onrender.com/api/circuits)
