@@ -15,8 +15,24 @@
 
 | API Endpoint                      | Description                                                                                         |
 | :-------------------------------- | :-------------------------------------------------------------------------------------------------- |
-| `/api/circuits`                       | Returns all circuits                                                                               |
-| `/api/circuits/:ref`                  | Returns the specified circuit                                                                           |
-| `/api/circuits/season/:year`              | Returns Circuits used in a season                                      |
-| `/api/constructors` | Returns all constructors |
-| `/api/constructors/:ref`                    | Returns specific constructor                                                                                |
+| `/api/circuits`                       | Returns all circuits                                                                            |
+| `/api/circuits/:ref`                  | Returns the specified circuit                                                                   |
+| `/api/circuits/season/:year`              | Returns Circuits used in a season                                                           |
+| `/api/constructors` | Returns all constructors                                                                                          |
+| `/api/constructors/:ref`                    | Returns specific constructor                                                              |
+| `/api/drivers`                       | Returns all drivers                                                                              |
+| `/api/drivers/:ref`                       | Returns specific driver                                                                     |
+| `/api/drivers/search/:substring`                       | Returns surname prefix                                                         |
+| `/api/drivers/race/:raceId`                       | Returns Drivers in a given race                                                     |
+| `/api/races/:raceId`                       | Returns a specific race by ID                                                              |
+| `/api/races/season/:year`                       | Returns all races in a season                                                         |
+| `/api/races/season/:year/:round`                       | Returns a specific race by year and round                                      |
+| `/api/races/circuits/:ref`                       | Returns all races for a given circuit                                                |
+| `/api/races/circuits/:ref/season/:start/:end`                       | Returns all the races for a given circuit between two years       |
+| `/api/results/:raceId`                       | Returns results for a specific race ID                                                   |
+| `/api/results/driver/ref`                       | Returns all the results for a given driver                                            |
+| `/api/results/drivers/ref/seasons/start/end`                       | Returns all the results for a given driver between two years       |
+| `/api/qualifying/raceId`                       | Returns the qualifying results for the specified race                                  |
+| `/api/standings/drivers/raceId`                       | Returns the current season driver standings table for the specified race        |
+| `/api/standings/constructors/raceId`            | Returns the current season constructors standings table for the specified race        |
+
