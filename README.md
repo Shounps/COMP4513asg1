@@ -15,8 +15,8 @@
 
 | API Endpoint                      | Description                                                                                         |
 | :-------------------------------- | :-------------------------------------------------------------------------------------------------- |
-| `/api/eras`                       | Returns all the eras                                                                                |
-| `/api/galleries`                  | Returns all the galleries                                                                           |
-| `/api/galleries/:id`              | Returns a specific gallery by ID (e.g., `/api/galleries/30`)                                        |
-| `/api/galleries/country/:substring` | Returns galleries where the country name starts with the given substring (e.g., `/api/galleries/country/fra`) |
-| `/api/artists`                    | Returns all artists                                                                                 |
+| `/api/circuits`                       | Returns all circuits                                                                               |
+| `/api/circuits/:ref`                  | Returns the specified circuit                                                                           |
+| `/api/circuits/season/:year`              | Returns Circuits used in a season                                      |
+| `/api/constructors` | Returns all constructors |
+| `/api/constructors/:ref`                    | Returns specific constructor                                                                                |
